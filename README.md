@@ -3,8 +3,11 @@ TC Slowify
 
 **Shell scripts to help you simulate slow network connections**
 
-Requirements (generally included in Ubuntu, Fedora, OpenSuse, Gentoo, Debian, Mandriva, etc)
+Requirements
 ----
+
+Both are generally included in Ubuntu, Fedora, OpenSuse, Gentoo, Debian, Mandriva, etc:
+
 - tc (a Linux command, part of the iproute2 package)
 - netem (included in the 2.6 Linux kernel)
 
