@@ -1,14 +1,15 @@
 TC Slowify
 ==========
 
-Shell scripts to help you simulate slow network connections
------------------------------------------------------------
+**Shell scripts to help you simulate slow network connections**
 
-*Requirements (generally included in Ubuntu, Fedora, OpenSuse, Gentoo, Debian, Mandriva, etc)*:
+Requirements (generally included in Ubuntu, Fedora, OpenSuse, Gentoo, Debian, Mandriva, etc)
+----
 - tc (a Linux command, part of the iproute2 package)
 - netem (included in the 2.6 Linux kernel)
 
-*Usage*:
+Usage
+----
 
 - ./apply.sh
   - Applies limiting rules; prompts you to select an interface name, rate, and latency
@@ -17,6 +18,7 @@ Shell scripts to help you simulate slow network connections
 - ./status.sh
   - Shows rules on that interface (sometimes other rules may already exist, that's ok) 
 
-*License*:
+License
+----
 
 The Unlicense, see LICENSING.txt
